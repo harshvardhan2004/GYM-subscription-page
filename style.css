@@ -1,0 +1,141 @@
+/* body reset */
+body {
+    color: white;
+    background-repeat: no-repeat;
+    background: url('fit4.jpg');
+    background-position: center left;
+    font-family: "Trirong", serif;
+    position: fixed;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    line-height: 14px;
+}
+
+.left img {
+    width: 28px;
+    filter: invert(100%);
+    padding-left: 44px;
+}
+
+.mid {
+    /* first 3 condition are to center block */
+    /* border: 2px solid green; */
+    display: block;
+    margin: 10px 483px;
+    width: 51%;
+    top: 10px;
+
+
+}
+
+.right {
+    /* border: 2px solid rgb(47, 0, 255); */
+    position: absolute;
+
+    right: -340px;
+    top: 20px;
+}
+
+.btn {
+    background-color: #49890042;
+    color: white;
+    margin: 0px 3px;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: small;
+    cursor: pointer;
+    font-family: "Trirong", serif;
+    size: 15px;
+}
+
+.btn:hover {
+    background-color: grey;
+    font-family: cursive;
+    font-size: small;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+    padding-left: 25px;
+    font-family: serif;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 34px;
+    cursor: pointer;
+}
+
+.navbar li a {
+    color: white;
+    display: inline-block;
+    padding: -2px 20px
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: royalblue;
+
+
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 36px;
+    margin: 138px 140px;
+    padding: 16px 48px;
+    width: 32%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form_group {
+    padding: 3px;
+}
+
+.form_group input {
+    font-size: medium;
+    text-align: center;
+    display: block;
+    width: 278px;
+    padding: 12px;
+    border: 2px solid black;
+    margin: 8px auto;
+    border-radius: 10px;
+    font-family: "Trirong", serif;
+}
+
+.btn1 {
+    display: block;
+    width: 278px;
+    margin: 16px auto;
+    padding: 14px 22px;
+    text-align: center;
+    font-size: small;
+    background-color: #bfbfbfa1;
+    border: none;
+}
+
+.btn1:hover {
+    background-color: gray;
+    /* border: 1px solid black; */
+    /* border-radius: 8px; */
+    color: white;
+    /* font-family: cursive; */
+    /* font-size: 12px; */
+    text-align: center;
+}
